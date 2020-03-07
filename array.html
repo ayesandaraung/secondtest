@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var array = ["aye",21,{town:"Mogok",id:101}];
+
+var res;
+for(var i=0;i<array.length;i++)
+{
+switch(array[i])
+{
+    case "aye": ans += array[i];
+    break;
+    default: res= array[i];
+}
+console.log(ans);
+}
+for(var i=0;i<array.length;i++)
+{
+    if(array[i] === Object(array[i]))
+{
+    console.log(array[i]);
+}
+}
+
+
+</script>
+</body>
+</html>

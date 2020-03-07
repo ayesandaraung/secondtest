@@ -1,0 +1,7 @@
+var array = [21,"aye",{town:"mogok"}];
+for(var i=0;i<array.length;i++)
+{
+
+}
+console.log(array);
+
